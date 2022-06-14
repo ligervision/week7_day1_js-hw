@@ -6,6 +6,7 @@
 
 
 
+// Python solution:
 // def find_nonconsec2():
 //     mylist = []
 //     for n in range((len(lst))-1):
@@ -14,20 +15,6 @@
 //     return mylist
 
 // find_nonconsec2()
-
-const myArray = [1, 2, 3, 5, 6, 7]
-// const secondArr = [3,4,5,6,7,8,9,10,11,12,13,14,15];
-
-
-// let myArray = [];
-// let len = myArray.length;
-
-
-for (let i = 0;  i<(myArray.length - 1); i++){
-  if(myArray[i] + 1 !== myArray[i+1]){
-  console.log(i+1)}
-}
-
 
 
 /*
@@ -44,6 +31,13 @@ Statement 3 is executed (every time) after the code block has been executed.
 
 */
 
+const myArray = [1, 2, 3, 5, 6, 7]
+// const secondArr = [3,4,5,6,7,8,9,10,11,12,13,14,15];
+
+for (let i = 0;  i<(myArray.length - 1); i++){
+  if(myArray[i] + 1 !== myArray[i+1]){
+  console.log(i+1)}
+}
 
 
 
