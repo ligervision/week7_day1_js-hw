@@ -15,18 +15,19 @@
 
 // find_nonconsec2()
 
-const exerciseOneArr = [1, 2, 3, 5, 6, 7]
+const myArray = [1, 2, 3, 5, 6, 7]
 // const secondArr = [3,4,5,6,7,8,9,10,11,12,13,14,15];
 
 
-let myArray = [];
-let len = myArray.length;
+// let myArray = [];
+// let len = myArray.length;
 
-for (let i = 0;  (myArray[i+1] - myArray[i]) != 1; i++) {
-    myArray += myArray[i+1];
+
+for (let i = 0;  i<(myArray.length - 1); i++){
+  if(myArray[i] + 1 !== myArray[i+1]){
+  console.log(i+1)}
 }
 
-console.log(myArray)
 
 
 /*
