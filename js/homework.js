@@ -35,7 +35,7 @@ const myArray = [1, 2, 3, 5, 6, 7]
 // const secondArr = [3,4,5,6,7,8,9,10,11,12,13,14,15];
 
 for (let i = 0;  i<(myArray.length - 1); i++){
-  if(myArray[i] + 1 !== myArray[i+1]){
+  if (myArray[i] + 1 !== myArray[i+1]){
   console.log(i+1)}
 }
 
@@ -64,7 +64,7 @@ let numbers2 = [3, 5, 7, 9, -10, 2, -22, -1]
 function posNums(array) {
   let sum = 0;
 
-  for (i of array) {
+  for (i of array){
     if (i > 0) sum += i;
   }
   return sum;
