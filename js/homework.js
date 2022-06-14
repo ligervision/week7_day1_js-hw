@@ -43,7 +43,7 @@ for (let i = 0;  i<(myArray.length - 1); i++){
 
 //============Exercise #2 ============//
 /*
-Given the two array of numbers below, loop through them both individually and the sum all of the positives elements.
+Given the two array of numbers below, loop through them both individually and return the sum all of the positive elements.
 
 Example 1:
 Input: [10, 12, -9, 3, -1, 0, 15] 
@@ -59,7 +59,14 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 let numbers1 = [10, 12, -9, 3, -1, 0, 15] 
 
-
 let numbers2 = [3, 5, 7, 9, -10, 2, -22, -1]
 
+function posNums(array) {
+  let sum = 0;
 
+  for (i of array) {
+    if (i > 0) sum += i;
+  }
+  return sum;
+}
+console.log(posNums(numbers1))
