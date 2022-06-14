@@ -42,17 +42,6 @@ Statement 2 defines the condition for executing the code block.
 
 Statement 3 is executed (every time) after the code block has been executed.
 
-    for (let i = 0; i < 5; i++) {
-        text += "The number is " + i + "<br>";
-      }
-
-From the example above, you can read:
-
-      Statement 1 sets a variable before the loop starts (let i = 0).
-      
-      Statement 2 defines the condition for the loop to run (i must be less than 5).
-      
-      Statement 3 increases a value (i++) each time the code block in the loop has been executed.
 */
 
 
